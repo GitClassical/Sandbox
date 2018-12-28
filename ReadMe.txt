@@ -63,7 +63,7 @@ Base Install:
 
 2. Install “CommentarySandbox"
 
-3. Activate “CommentPress Core"
+3. Activate “CommentPress Core" in the CommentarySandbox Settings
 
 
 
@@ -79,7 +79,7 @@ Your modified "CommentPress Core" setup is complete. At this point you can:
 
 3. Change Background and Header
 
-4. Customise “CommentarySandbox" via its Settings Page
+4. Customize “CommentarySandbox" via its Settings Page
 
 
 
@@ -91,5 +91,7 @@ Your modified "CommentPress Core" setup is complete. At this point you can:
 
 
 == Changelog ==
+
+v2.0.3	added WYSIWYG editor for Notes and Vocabulary; improved responsive design; numerous minor corrections; tested for Wordpress5
 
 
