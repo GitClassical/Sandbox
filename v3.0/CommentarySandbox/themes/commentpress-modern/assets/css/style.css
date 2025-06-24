@@ -1,0 +1,323 @@
+/******************** Style.Css Here ********************/
+ 
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700');  
+
+h2.post_title {
+
+    font-size: 2em;
+
+    line-height: 1.2;
+
+    -ms-word-wrap: break-word;
+
+    word-wrap: break-word;
+	
+	font-family: 'Cardo', serif !important;
+
+} 
+
+li.cat-item {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.post p {
+    font-family: 'Cardo', serif !important;  
+}
+
+.search_display_disabled {
+	display: none;
+}  
+.slider_footer {
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #fff;
+	padding: 4px 0 4px 0;
+	color: #000;
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	border-top: 1px solid #ccc;
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 0;
+}
+
+.slider_footer p a {
+	color: #000;
+}  
+
+
+#footer p {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	font-size: 14px;
+	color: #000;
+}
+#footer {
+	width: 100%;
+	float: left;
+	background-color: #BDBDBD;
+	color: #fff;
+}
+.notes_feild h3 {
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin: 20px 0;
+	padding: 0;
+	font-size: 17px;
+	color: #000;
+}
+.new_voc_style {
+	float: left;
+	width: 100%;
+	/* background: #bdbdbd; */
+	padding: 5px 0;
+	text-align: left;
+	font-size: 80%;
+	color: #000;
+	margin: 20px 0 0 0;
+}
+
+.page-id-332 #Notes {
+    display: none !important;
+}
+  
+.vocabulary_feild p {
+	font-size: 80%;
+	text-align: justify;
+	padding: 0 5px;
+	color: #000;
+	float: left;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin: 0;
+}
+.current_page_item a {
+    background: #666 !important;
+    color: #fff !important;
+}
+#toc_sidebar .paragraph_wrapper {
+    background-color: #ddd;
+    padding: 0;
+}
+.current_page_item a:hover {
+    background: #444 !important;
+}
+
+
+/* Style the tab_one */
+.tab_one {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	position: fixed;
+	z-index: 499;
+	float: left;
+	right: 0;
+	width: 28%;
+}
+
+/* Style the buttons inside the tab_one */
+.tab_one button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+.tab_one .tablinks {
+	width: 50%;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.tab_one .tablinks.active {
+	background: #6b6b6b;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 15px;
+}   
+
+
+#Notes {
+    padding: 11px 17px;
+    width: 25%;
+    float: right;
+    margin: 43px 0 0 0;
+    position: fixed;
+    right: 0;
+    background: #ccc;
+ overflow-y: scroll; 
+    height: 429px;
+}
+
+#Vocabulary {
+	padding: 11px 17px;
+	width: 24%; 
+	float: left;
+	margin: 43px 0 0 0;
+	position: fixed;
+	right: 0;
+	overflow-y: scroll;
+    height: 429px;
+	
+}
+
+
+
+
+ 
+
+/* Change background color of buttons on hover */
+.tab_one button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab_one button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab_one content */
+.tabcontent.sen_serif_font {
+    display: none; 
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 80%;
+	font-size: 14px;
+}
+.tabcontent.active {
+    display: none; 
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	font-family: 'Cardo', san serif !important;
+	font-size: 14px;
+}
+
+#toc_list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #toc_list li:nth-child(2) {
+    order: 2;
+} */
+
+.slider_footer p {
+    float: left;
+    width: 100%;
+}
+#Notes p, #Vocabulary p {
+    line-height: 20px;
+}
+
+/**********New Custom CSS**************/
+.paragraph_wrapper.start_open {
+	overflow-y: scroll;
+	min-height: 100%;
+	/* height: 460px; */
+	overflow: auto;
+}
+
+div#Notes, div#Vocabulary {
+	max-height: 100%;
+	height: 100%;
+	overflow-y: auto;
+	height: calc(100vh - 160px);
+	/* flex: 0 0 200px; */
+	-ms-flex-order: -1;
+	order: -1;
+	position: fixed;
+	right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	z-index: 999;
+}
+.admin-bar div#Notes, .admin-bar div#Vocabulary {
+	height: calc(100vh - 190px);
+}
+span.page_num_bottom {display: none;}
+.slider_footer p {transform: inherit;}
+.running_header_bottom {padding-top: 1em;padding-bottom: 15px;}
+.home .slider_footer {
+	width: 98.6%;
+	margin: 0;
+}.slider_footer .widget_text .widgettitle {	display: none;}
+@media screen and (max-width:1200px) {
+	#wrapper{margin-left: 0;width: 67%;} 
+    body .slider_footer {width: 100%;z-index: 9999;margin-left: 0;}
+    div#Notes, div#Vocabulary {padding:11px 15px;z-index: 997;height: calc(100vh - 235px);}
+    .active-nav #wrapper {transform: translateX(49%);}
+    div#switcher {z-index: 99999;}
+    .admin-bar div#Notes, .admin-bar div#Vocabulary {height: calc(100vh - 265px);}
+    
+}
+@media screen and (max-width:1020px) {
+	body #wrapper{margin-left: 0;width:100%;}
+    .slider_footer {width: 100%;margin-left: 0;}
+    div#Notes, div#Vocabulary{z-index: 998;}
+    .active-sidebar #wrapper {transform: translateX(-50%);}
+    .active-nav #wrapper {transform: translateX(40%);z-index: 999;}
+    
+}
+
+@media screen and (max-width:781px) {
+	
+.admin-bar #navigation {height: calc(100vh - 305px);}
+.admin-bar div#Notes, .admin-bar div#Vocabulary {height: calc(100vh - 280px);}
+    
+}
+
+@media screen and (max-width:600px) {
+	#toc_sidebar .sidebar_header h2{font-size: 14px;height: 25px;}
+    h3.activity_heading,#toc_sidebar .sidebar_minimiser ul li a, 	.sidebar_contents_wrapper #toc_list a{font-size: 14px;padding: 10px 32px;}
+    body .tab_one {width: 100%;}
+    div#Notes, div#Vocabulary { width: 94%;opacity: 0;}
+	.active-sidebar div#Notes, .active-sidebar #Vocabulary {opacity: 1;}
+    .active-sidebar #wrapper {transform: translateX(-100%);}
+    .active-nav #wrapper {transform: translateX(70%);}
+    .sidebar_contents_wrapper #toc_list a {font-size: 14px;}
+    #navigation {height: calc(100vh - 227px);}
+    .admin-bar #navigation {height: calc(100vh - 275px);}
+    
+}
+
+@media screen and (max-width:540px) {  
+
+/* #navigation {
+	height: -moz-calc(100vh - 220px);
+}
+#navigation {
+	height: calc(100vh - 265px);
+}
+div#Notes, div#Vocabulary {
+	height: calc(100vh - 210px);
+} */
+}
+@media screen and (max-width:400px)
+{
+	#header{height: 70px;}
+    #header #title a, #header #tagline {font-size: 11px;}
+	
+}

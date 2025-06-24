@@ -1,0 +1,323 @@
+/* Responsive css */ /* 13 nov-2018 */
+
+
+
+@media (max-width:1200px){
+
+
+
+.slider_footer {
+
+	position: fixed;
+
+	z-index: 9999;
+
+	bottom: 50px;
+
+}	
+
+.tab_one {
+
+	width: 34%;
+
+}	
+
+
+
+#Notes {
+
+	width: 30%;
+
+}
+
+
+
+#Vocabulary {
+
+	width: 30%;
+
+}#content, .content {	min-height: 70vh;     }
+}
+
+
+
+@media (max-width:1020px){
+
+.tab_one {
+
+	width: 50%;
+
+}
+
+#Notes {
+
+	width: 46%;
+
+}
+#Vocabulary {
+	width: 46%;
+}#content, .content {	min-height: 67vh;}
+}
+
+@media (max-width:1000px){
+
+.sidebar_contents_wrapper #toc_list a {
+
+	font-size: 100%;
+
+	padding: 15px 7px 10px;
+
+}	.
+
+
+
+#navigation {
+
+	z-index: 9999;
+
+}
+
+	
+
+	
+
+#Notes {
+
+	padding: 11px 19px;
+
+	width: 43%;
+
+	float: right;
+
+	margin: 43px 0 0 0;
+
+	position: fixed;
+
+	right: 0;
+
+	background: #ccc;
+
+	overflow-y: scroll;
+
+	height: 286px;
+
+}
+
+.tab_one {
+
+	overflow: hidden;
+
+	border: 1px solid #ccc;
+
+	background-color: #f1f1f1;
+
+	position: fixed;
+
+	z-index: 499;
+
+	float: left;
+
+	right: 0;
+
+	width: 50%;
+
+}
+
+#Vocabulary{width: 43%;}
+
+}
+
+@media (max-width:990px){
+
+/* #page_wrapper{min-height: 736px;} */
+
+
+
+#Notes {
+
+	width: 46%;
+
+}
+
+
+
+#Vocabulary{
+
+	width: 46%;
+
+}   
+
+
+
+}
+
+@media (max-width:655px){
+	.slider_footer p {font-size: 12px;}
+}
+
+@media (max-width:600px){
+
+
+
+.tab_one {
+
+	width: 71%;
+
+}
+
+#Notes {
+
+	width: 64%;
+
+}
+
+#header {
+
+	position: fixed;
+
+}
+
+ .slider_footer {
+
+	bottom: 36px;
+
+} 
+
+#navigation {
+
+	z-index: 9999;
+
+/* 	height: 344px; */
+
+}#content, .content {	min-height: 80vh;}
+
+}
+
+
+
+	
+
+
+
+@media (max-width:540px){
+
+.tab_one {
+
+	width: 74%;
+
+}	
+
+#header {
+
+	position: fixed;
+
+}
+
+#switcher ul li a {
+
+	font-size: 12px;
+
+	padding: 12px;
+
+	height: 14px;
+
+}
+
+
+
+#Notes {
+
+	width: 62%;
+
+}	
+
+#Vocabulary{width:62%;}
+
+#toc_sidebar .paragraph_wrapper {
+
+	background-color: #ddd;
+
+	padding: 0 0 0 0;
+
+/* 	min-height: 234px; */
+
+}
+
+
+
+.slider_footer {
+
+	bottom: 38px;
+
+}
+
+body #navigation {
+
+	z-index: 9999;
+
+}
+
+.slider_footer p {
+
+	font-size: 12px;
+
+}
+
+.slider_footer p a {
+
+	font-size: 12px;
+
+}
+
+.sidebar_contents_wrapper #toc_list a {
+
+	font-size: 14px;
+
+}
+
+.page_nav_lower .page_navigation ul .alignleft a, .page_nav_lower .page_navigation ul .alignright a {
+
+	height: 70px;
+
+}
+
+#navigation {
+
+    height: calc(100vh - 250px);
+
+}
+
+body #wrapper {
+
+    margin-left: 0;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+}
+
+.sidebar_contents_wrapper {
+
+    height: auto !important;
+
+}
+
+}
+
+
+
+@media (max-width:480px){
+
+	
+
+#switcher ul li a {font-size: 11px;}
+
+.page_nav_lower .page_navigation ul .alignleft a, .page_nav_lower .page_navigation ul .alignright a {
+	height: 57px;
+}
+#content, .content {
+	padding: 2% 0 16%;	min-height: 77vh;	
+}
+
+}

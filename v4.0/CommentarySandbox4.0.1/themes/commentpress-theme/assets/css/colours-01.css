@@ -1,0 +1,115 @@
+/*
+================================================================================
+CommentPress Default Colours Stylesheet
+================================================================================
+AUTHOR: Christian Wach <needle@haystack.co.uk>
+--------------------------------------------------------------------------------
+NOTES
+
+The intent behind this stylesheet is to gather together key styles so they can
+be easily overridden in child themes. Doing so simply involves copying this file
+to the same relative path in the child theme and amending the values as desired.
+
+--------------------------------------------------------------------------------
+*/
+
+
+
+/*
+--------------------------------------------------------------------------------
+Fonts
+--------------------------------------------------------------------------------
+*/
+
+/* Georgia */
+#book_header #tagline,
+body#main_blog div#item-header div#item-meta
+{
+	font-family: Georgia, Times, serif;
+}
+
+/* Google Webfont: using "Lato" enqueued in functions.php */
+
+/* Titles and headings */
+#title h1,
+#title h1 a,
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6,
+
+/* Signup, Activate and Register pages */
+body.create-blog #content #setupform label,
+#register-page #signup_form h2,
+#content #activateform label
+#content .mu_register h2,
+#content .mu_register label,
+#content #signup-content h2,
+#content #activateform label,
+
+/* CommentPress form inserts */
+body.create-blog #cp-multisite-options h4,
+#content .mu_register #cp-multisite-options h3,
+
+/* Comment form */
+div#respond h4#respond_title
+{
+	font-family: Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Stylistic regularity
+--------------------------------------------------------------------------------
+*/
+
+/* Site title */
+#title h1
+{
+	letter-spacing: 1px;
+}
+
+/* Site tagline */
+#book_header #tagline
+{
+	font-style: normal;
+	font-size: 1em;
+	color: #999;
+	padding-top: 5px;
+	letter-spacing: 1px;
+}
+
+/* Headings on page/posts */
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6
+{
+	/* don't force uppercase */
+}
+
+#register-page #cp-multisite-options h4
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+button,
+a.button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+ul.button-nav li a,
+div.generic-button a
+{
+	color: #777;
+	text-transform: none;
+}
+
+
